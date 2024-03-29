@@ -1,0 +1,33 @@
+.lsComponent{
+    height:100svh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.formBox{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    border:3px solid blue;
+    padding: 1rem;
+    height: fit-content;
+    border-radius: 20px;
+    
+}
+.inpbox{
+    border: 1px solid black;
+    width:300px;
+    padding: 1rem;
+    font-size: large;
+    font-weight:bold;
+    border-radius: 10px;
+}
+.inpbox:focus{
+    background-color: lightblue;
+}
+.newBtn{
+    background-color: transparent;
+    color:blue;
+    text-decoration: underline;
+    border:none;
+}
