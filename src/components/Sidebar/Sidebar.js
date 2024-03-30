@@ -35,7 +35,7 @@ const Sidebar = ({ children }) => {
             <div className="scontainer">
                 <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
                     <div className="top_section">
-                        <h1 style={{ display: isOpen ? "block" : "none" }} className="slogo">Necleo</h1>
+                        <h1 style={{ display: isOpen ? "block" : "none" }} className="slogo">BidBay</h1>
                         <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
                             <FaBars onClick={toggle} />
                         </div>
